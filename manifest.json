@@ -1,0 +1,17 @@
+{
+  "name": "EASE-ier",
+  "version": "1.0",
+  "description": "Brings back the old EASE login page",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ease.ed.ac.uk/",
+        "https://www.ease.ed.ac.uk/cosign.cgi*"
+      ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
+}
